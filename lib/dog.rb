@@ -1,3 +1,5 @@
+require pry
+
 class Dog
   attr_accessor :name
   
@@ -12,7 +14,7 @@ class Dog
   @@all
     puts "#{}"
  end
- 
+ binding.pry
  def self.clear_all
    @@all.clear
  end
