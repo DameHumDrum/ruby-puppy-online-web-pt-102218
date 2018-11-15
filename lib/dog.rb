@@ -10,7 +10,7 @@ class Dog
  
  def self.all
   @@all
-    puts "#{self.all}"
+    puts "#{}"
  end
  
  def self.clear_all
